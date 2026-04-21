@@ -1,0 +1,31 @@
+## [ Visual Studio ]
+.vs/
+[Bb]in/
+[Obj]/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.sln.docstates
+*.userosscache
+*.cache
+*.opendb
+
+## [ Build Results ]
+*.exe
+*.dll
+*.pdb
+*.msi
+*.nupkg
+
+## [ Tools ]
+.consulo/
+.idea/
+*.swp
+*~
+_ReSharper*/
+
+## [ OS specific files ]
+Thumbs.db
+desktop.ini
+.DS_Store
