@@ -69,6 +69,11 @@
     </Compile>
     <Compile Include="Global Classes\clsEventLog.cs" />
     <Compile Include="Global Classes\clsFormat.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Users\Controls\ctrlUserCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -469,14 +474,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include=".editorconfig" />
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
@@ -580,9 +580,6 @@
     <None Include="Resources\Applications.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo Final.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\wallpaper.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -602,9 +599,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Next 64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IconLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CloseBlack.png" />
