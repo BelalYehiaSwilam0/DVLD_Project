@@ -576,9 +576,6 @@
     <None Include="Resources\Applications.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo Final.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\wallpaper.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -598,9 +595,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Next 64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IconLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CloseBlack.png" />
