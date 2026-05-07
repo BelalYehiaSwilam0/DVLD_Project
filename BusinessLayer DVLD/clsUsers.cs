@@ -30,6 +30,7 @@ namespace BusinessLayer_DVLD
             Mode = enMode.AddNew;
         }
 
+        
         private clsUsers(int userID, int personID, string userName, string password, bool isActive)
         {
             this.UserID = userID;
